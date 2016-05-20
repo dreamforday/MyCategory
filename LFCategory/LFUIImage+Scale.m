@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 live Interactive. All rights reserved.
 //
 
-#import "LFUIImage+Addtional.h"
+#import "LFUIImage+Scale.h"
 #import <ImageIO/ImageIO.h>
 #import "LFCategory.h"
 #import "AppMacro.h"
@@ -36,7 +36,7 @@ static void AddRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWi
     CGContextRestoreGState(context);
 }
 
-@implementation UIImage (LFAdditions)
+@implementation UIImage (LFScaleAdditions)
 
 + (UIImage *)scaleImage:(UIImage *)image scaleToSize:(CGSize)size scale:(CGFloat)scale{
     if (!image) {
