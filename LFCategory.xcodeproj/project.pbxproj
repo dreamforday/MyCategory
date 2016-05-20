@@ -105,9 +105,6 @@
 		09ED7F341CED804D00F0E12F /* LFCategoryMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED7F331CED804D00F0E12F /* LFCategoryMacro.h */; };
 		09ED7F381CED869300F0E12F /* LFALAsset+Property.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED7F361CED869300F0E12F /* LFALAsset+Property.h */; };
 		09ED7F391CED869300F0E12F /* LFALAsset+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ED7F371CED869300F0E12F /* LFALAsset+Property.m */; };
-		09ED7F421CED8B3C00F0E12F /* ResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED7F401CED8B3C00F0E12F /* ResourceManager.h */; };
-		09ED7F431CED8B3C00F0E12F /* ResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ED7F411CED8B3C00F0E12F /* ResourceManager.m */; };
-		09ED7F4F1CED998E00F0E12F /* AppMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED7F4E1CED998E00F0E12F /* AppMacro.h */; };
 		09ED7F511CEDABA100F0E12F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 09ED7F501CEDABA100F0E12F /* libz.tbd */; };
 		09ED7F531CEDB10C00F0E12F /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 09ED7F521CEDB10C00F0E12F /* readme.md */; };
 		09ED7F5A1CEDB8B500F0E12F /* LFALAsset+Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED7F581CEDB8B500F0E12F /* LFALAsset+Image.h */; };
@@ -118,10 +115,13 @@
 		09ED7F631CEDE19B00F0E12F /* LFNSDate+Update.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ED7F611CEDE19B00F0E12F /* LFNSDate+Update.m */; };
 		09ED7F661CEDE23700F0E12F /* LFNSDate+Format.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED7F641CEDE23700F0E12F /* LFNSDate+Format.h */; };
 		09ED7F671CEDE23700F0E12F /* LFNSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ED7F651CEDE23700F0E12F /* LFNSDate+Format.m */; };
-		09ED7F6D1CEEA6CC00F0E12F /* LFWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED7F691CEEA6CC00F0E12F /* LFWeakProxy.h */; };
-		09ED7F6E1CEEA6CC00F0E12F /* LFWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ED7F6A1CEEA6CC00F0E12F /* LFWeakProxy.m */; };
-		09ED7F6F1CEEA6CC00F0E12F /* LUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED7F6B1CEEA6CC00F0E12F /* LUtility.h */; };
-		09ED7F701CEEA6CC00F0E12F /* LUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ED7F6C1CEEA6CC00F0E12F /* LUtility.m */; };
+		09ED7F751CEEDAF000F0E12F /* LFWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED7F711CEEDAF000F0E12F /* LFWeakProxy.h */; };
+		09ED7F761CEEDAF000F0E12F /* LFWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ED7F721CEEDAF000F0E12F /* LFWeakProxy.m */; };
+		09ED7F771CEEDAF000F0E12F /* LUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED7F731CEEDAF000F0E12F /* LUtility.h */; };
+		09ED7F781CEEDAF000F0E12F /* LUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ED7F741CEEDAF000F0E12F /* LUtility.m */; };
+		09ED7F7A1CEEDAFE00F0E12F /* AppMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED7F791CEEDAFE00F0E12F /* AppMacro.h */; };
+		09ED7F7D1CEEDB0800F0E12F /* ResourceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 09ED7F7B1CEEDB0800F0E12F /* ResourceManager.h */; };
+		09ED7F7E1CEEDB0800F0E12F /* ResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ED7F7C1CEEDB0800F0E12F /* ResourceManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -225,9 +225,6 @@
 		09ED7F331CED804D00F0E12F /* LFCategoryMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFCategoryMacro.h; sourceTree = "<group>"; };
 		09ED7F361CED869300F0E12F /* LFALAsset+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LFALAsset+Property.h"; sourceTree = "<group>"; };
 		09ED7F371CED869300F0E12F /* LFALAsset+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LFALAsset+Property.m"; sourceTree = "<group>"; };
-		09ED7F401CED8B3C00F0E12F /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceManager.h; sourceTree = "<group>"; };
-		09ED7F411CED8B3C00F0E12F /* ResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResourceManager.m; sourceTree = "<group>"; };
-		09ED7F4E1CED998E00F0E12F /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
 		09ED7F501CEDABA100F0E12F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		09ED7F521CEDB10C00F0E12F /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		09ED7F581CEDB8B500F0E12F /* LFALAsset+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LFALAsset+Image.h"; sourceTree = "<group>"; };
@@ -238,10 +235,13 @@
 		09ED7F611CEDE19B00F0E12F /* LFNSDate+Update.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LFNSDate+Update.m"; sourceTree = "<group>"; };
 		09ED7F641CEDE23700F0E12F /* LFNSDate+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LFNSDate+Format.h"; sourceTree = "<group>"; };
 		09ED7F651CEDE23700F0E12F /* LFNSDate+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LFNSDate+Format.m"; sourceTree = "<group>"; };
-		09ED7F691CEEA6CC00F0E12F /* LFWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFWeakProxy.h; sourceTree = "<group>"; };
-		09ED7F6A1CEEA6CC00F0E12F /* LFWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFWeakProxy.m; sourceTree = "<group>"; };
-		09ED7F6B1CEEA6CC00F0E12F /* LUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUtility.h; sourceTree = "<group>"; };
-		09ED7F6C1CEEA6CC00F0E12F /* LUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUtility.m; sourceTree = "<group>"; };
+		09ED7F711CEEDAF000F0E12F /* LFWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LFWeakProxy.h; path = LFCategory/LFWeakProxy.h; sourceTree = SOURCE_ROOT; };
+		09ED7F721CEEDAF000F0E12F /* LFWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LFWeakProxy.m; path = LFCategory/LFWeakProxy.m; sourceTree = SOURCE_ROOT; };
+		09ED7F731CEEDAF000F0E12F /* LUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LUtility.h; path = LFCategory/LUtility.h; sourceTree = SOURCE_ROOT; };
+		09ED7F741CEEDAF000F0E12F /* LUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LUtility.m; path = LFCategory/LUtility.m; sourceTree = SOURCE_ROOT; };
+		09ED7F791CEEDAFE00F0E12F /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppMacro.h; path = LFCategory/AppMacro.h; sourceTree = SOURCE_ROOT; };
+		09ED7F7B1CEEDB0800F0E12F /* ResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceManager.h; path = LFCategory/ResourceManager.h; sourceTree = SOURCE_ROOT; };
+		09ED7F7C1CEEDB0800F0E12F /* ResourceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourceManager.m; path = LFCategory/ResourceManager.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,8 +410,8 @@
 		09ED7F3F1CED8B3C00F0E12F /* LFManagers */ = {
 			isa = PBXGroup;
 			children = (
-				09ED7F401CED8B3C00F0E12F /* ResourceManager.h */,
-				09ED7F411CED8B3C00F0E12F /* ResourceManager.m */,
+				09ED7F7B1CEEDB0800F0E12F /* ResourceManager.h */,
+				09ED7F7C1CEEDB0800F0E12F /* ResourceManager.m */,
 			);
 			path = LFManagers;
 			sourceTree = SOURCE_ROOT;
@@ -419,7 +419,7 @@
 		09ED7F4D1CED998E00F0E12F /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				09ED7F4E1CED998E00F0E12F /* AppMacro.h */,
+				09ED7F791CEEDAFE00F0E12F /* AppMacro.h */,
 			);
 			path = Macro;
 			sourceTree = SOURCE_ROOT;
@@ -427,10 +427,10 @@
 		09ED7F681CEEA6CC00F0E12F /* LFUtils */ = {
 			isa = PBXGroup;
 			children = (
-				09ED7F691CEEA6CC00F0E12F /* LFWeakProxy.h */,
-				09ED7F6A1CEEA6CC00F0E12F /* LFWeakProxy.m */,
-				09ED7F6B1CEEA6CC00F0E12F /* LUtility.h */,
-				09ED7F6C1CEEA6CC00F0E12F /* LUtility.m */,
+				09ED7F711CEEDAF000F0E12F /* LFWeakProxy.h */,
+				09ED7F721CEEDAF000F0E12F /* LFWeakProxy.m */,
+				09ED7F731CEEDAF000F0E12F /* LUtility.h */,
+				09ED7F741CEEDAF000F0E12F /* LUtility.m */,
 			);
 			path = LFUtils;
 			sourceTree = SOURCE_ROOT;
@@ -452,17 +452,16 @@
 				09ED7EE11CED803200F0E12F /* LFUIView+LFViewIsDisplaying.h in Headers */,
 				09ED7F2D1CED804200F0E12F /* LFNSString+Currency.h in Headers */,
 				09ED7EDD1CED803200F0E12F /* LFUIView+DKAnalyses.h in Headers */,
-				09ED7F421CED8B3C00F0E12F /* ResourceManager.h in Headers */,
 				09ED7EDF1CED803200F0E12F /* LFUIView+Add.h in Headers */,
-				09ED7F6F1CEEA6CC00F0E12F /* LUtility.h in Headers */,
+				09ED7F771CEEDAF000F0E12F /* LUtility.h in Headers */,
 				09ED7F5A1CEDB8B500F0E12F /* LFALAsset+Image.h in Headers */,
 				09ED7EE51CED803200F0E12F /* LFUIViewController+Add.h in Headers */,
 				09ED7F111CED804200F0E12F /* LFNSBundle+Add.h in Headers */,
-				09ED7F6D1CEEA6CC00F0E12F /* LFWeakProxy.h in Headers */,
+				09ED7F751CEEDAF000F0E12F /* LFWeakProxy.h in Headers */,
+				09ED7F7A1CEEDAFE00F0E12F /* AppMacro.h in Headers */,
 				09ED7EB31CED803200F0E12F /* LFUIAlertView+Blocks.h in Headers */,
 				09ED7EDB1CED803200F0E12F /* LFUIView+Badge.h in Headers */,
 				09ED7F661CEDE23700F0E12F /* LFNSDate+Format.h in Headers */,
-				09ED7F4F1CED998E00F0E12F /* AppMacro.h in Headers */,
 				09ED7F151CED804200F0E12F /* LFNSData+Add.h in Headers */,
 				09ED7EC31CED803200F0E12F /* LFUIDevice+Add.h in Headers */,
 				09ED7EBD1CED803200F0E12F /* LFUIButton+EnlargeEdge.h in Headers */,
@@ -485,6 +484,7 @@
 				09ED7EBB1CED803200F0E12F /* LFUIBezierPath+Add.h in Headers */,
 				09ED7E791CED800B00F0E12F /* LFCALayer+Add.h in Headers */,
 				09ED7EB11CED803200F0E12F /* LFUIAlertController+Blocks.h in Headers */,
+				09ED7F7D1CEEDB0800F0E12F /* ResourceManager.h in Headers */,
 				09ED7ECF1CED803200F0E12F /* LFUIImage+Add.h in Headers */,
 				09ED7F2B1CED804200F0E12F /* LFNSObject+Model.h in Headers */,
 				09ED7F0F1CED804200F0E12F /* LFNSArray+Add.h in Headers */,
@@ -575,7 +575,7 @@
 				09ED7EBE1CED803200F0E12F /* LFUIButton+EnlargeEdge.m in Sources */,
 				09ED7F221CED804200F0E12F /* LFNSNotificationCenter+Add.m in Sources */,
 				09ED7EB61CED803200F0E12F /* LFUIApplication+Add.m in Sources */,
-				09ED7F701CEEA6CC00F0E12F /* LUtility.m in Sources */,
+				09ED7F781CEEDAF000F0E12F /* LUtility.m in Sources */,
 				09ED7EB41CED803200F0E12F /* LFUIAlertView+Blocks.m in Sources */,
 				09ED7F631CEDE19B00F0E12F /* LFNSDate+Update.m in Sources */,
 				09ED7EC81CED803200F0E12F /* LFUIGestureRecognizer+Add.m in Sources */,
@@ -585,6 +585,7 @@
 				09ED7ED81CED803200F0E12F /* LFUITableView+Add.m in Sources */,
 				09ED7ECE1CED803200F0E12F /* LFUIImage+CutScreen.m in Sources */,
 				09ED7F0E1CED804200F0E12F /* LFClassInfo.m in Sources */,
+				09ED7F7E1CEEDB0800F0E12F /* ResourceManager.m in Sources */,
 				09ED7F391CED869300F0E12F /* LFALAsset+Property.m in Sources */,
 				09ED7ED21CED803200F0E12F /* LFUIImage+Resource.m in Sources */,
 				09ED7EC21CED803200F0E12F /* LFUIControl+Add.m in Sources */,
@@ -601,7 +602,6 @@
 				09ED7ED61CED803200F0E12F /* LFUIScrollView+Add.m in Sources */,
 				09ED7F141CED804200F0E12F /* LFNSCharacterSet+Add.m in Sources */,
 				09ED7F1C1CED804200F0E12F /* LFNSDictionary+Add.m in Sources */,
-				09ED7F431CED8B3C00F0E12F /* ResourceManager.m in Sources */,
 				09ED7F261CED804200F0E12F /* LFNSObject+Add.m in Sources */,
 				09ED7F301CED804200F0E12F /* LFNSString+URLString.m in Sources */,
 				09ED7EC01CED803200F0E12F /* LFUIColor+Add.m in Sources */,
@@ -611,7 +611,7 @@
 				09ED7EDE1CED803200F0E12F /* LFUIView+DKAnalyses.m in Sources */,
 				09ED7F241CED804200F0E12F /* LFNSNumber+Add.m in Sources */,
 				09ED7F101CED804200F0E12F /* LFNSArray+Add.m in Sources */,
-				09ED7F6E1CEEA6CC00F0E12F /* LFWeakProxy.m in Sources */,
+				09ED7F761CEEDAF000F0E12F /* LFWeakProxy.m in Sources */,
 				09ED7EE41CED803200F0E12F /* LFUIViewController+DKAnalyses.m in Sources */,
 				09ED7F201CED804200F0E12F /* LFNSKeyedUnarchiver+Add.m in Sources */,
 				09ED7EC61CED803200F0E12F /* LFUIFont+Add.m in Sources */,

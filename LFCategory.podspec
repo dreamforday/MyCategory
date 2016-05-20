@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'git@github.com:dreamforday/MyCategory.git', :tag => s.version.to_s }
   
   s.requires_arc = true
-  s.source_files = 'LFCategory/*.{h,m}'
-  s.public_header_files = 'LFCategory/*.{h}'
+  s.source_files = ‘LFCategory/*.{h,m}’
+  s.public_header_files = ‘LFCategory/*.{h}’
 
   s.libraries = 'z', 'sqlite3'
 
