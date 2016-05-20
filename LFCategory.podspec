@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source_files = ‘LFCategory/*.{h,m}’
   s.public_header_files = ‘LFCategory/*.{h}’
 
-  s.libraries = 'z', 'sqlite3'
+  s.libraries = 'z'
 
 end
