@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.public_header_files = 'LFCategory/**/*.{h}'
 
   s.libraries = 'z'
-  s.dependency  'SDWebImage', '~>3.7'
+  s.dependency 'SDWebImage','~>3.7'
 
 end
